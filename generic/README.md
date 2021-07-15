@@ -1,0 +1,2 @@
+# Generic nordic project
+
