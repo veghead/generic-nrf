@@ -54,7 +54,6 @@ pipeline {
     }
     post {
         always {
-            sh 'ls -l && /bin/pwd'
             archiveArtifacts artifacts: 'generic.hex', fingerprint: true
         }
     }
