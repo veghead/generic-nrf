@@ -2,4 +2,4 @@
 
 See Jenkinsfile for details
 
-
+Ask for URL of CI server.
