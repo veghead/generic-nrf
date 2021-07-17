@@ -3,7 +3,7 @@
 This is a generic nordic nrf52 SDK project.
 
 On commit, github fires off a webhook to the CI server, which in turn
-runs the pipline contained in the Jenkinsfile here.
+runs the pipeline contained in the Jenkinsfile here.
 
 This pipeline:
 
