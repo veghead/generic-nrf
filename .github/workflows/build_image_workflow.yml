@@ -1,0 +1,13 @@
+name: Build the image
+on: [push]
+jobs:
+  run-unit-tests:
+    runs-on: ubuntu-18.04
+    container:
+      image: throwtheswitch/madsciencelab
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2.3.4
+          fetch-depth: "0"
+      - name: Run tests
+        run: ceedling test
