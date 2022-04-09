@@ -11,4 +11,4 @@ jobs:
         with:
           fetch-depth: "0"
       - name: Run tests
-        run: ceedling test
+        run: pwd; ls -l
